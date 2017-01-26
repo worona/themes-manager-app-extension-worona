@@ -99,7 +99,7 @@ export default () => {
   const RootContainer = deps.elements.RootContainer;
   return (
     <RootContainer>
-      <h1>Themes</h1>
+      <h1>Choose theme</h1>
       <hr />
       <ComingSoon />
       <br />

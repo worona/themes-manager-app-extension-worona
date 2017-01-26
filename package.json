@@ -42,7 +42,7 @@
       "namespace": "themesManager",
       "menu": {
         "app": {
-          "niceName": "Change theme",
+          "niceName": "Choose theme",
           "category": "Themes",
           "order": 1
         }
