@@ -64,7 +64,27 @@ let Content = ({ t }) => (
           </div>
         </div>
         <footer className="card-footer">
-          <span className=" card-footer-item"><strong><small>Coming soon</small></strong></span>
+          <a
+            className="card-footer-item"
+            href="https://www.worona.org/starter-pro-theme"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="icon is-small" >
+              <i className="fa fa-info-circle" />
+            </span>
+            &nbsp;&nbsp;Info
+          </a>
+          <a
+            className="card-footer-item"
+            href="https://shop.worona.org/starter-pro-checkout"
+            rel="noopener noreferrer"
+          >
+            <span className="icon is-small" >
+              <i className="fa fa-shopping-cart" />
+            </span>
+            &nbsp;&nbsp;<span style={{ fontWeight: '600' }} >BUY NOW</span>
+          </a>
         </footer>
       </div>
     </div>
@@ -99,10 +119,8 @@ export default () => {
   const RootContainer = deps.elements.RootContainer;
   return (
     <RootContainer>
-      <h1>Choose theme</h1>
+      <h1 className="title">Choose theme</h1>
       <hr />
-      <ComingSoon />
-      <br />
       <Content />
     </RootContainer>
   );
