@@ -1,6 +1,6 @@
 {
   "name": "themes-manager-app-extension-worona",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Themes manager",
   "scripts": {
     "start": "node node_modules/worona-packages/dist/start.js"
